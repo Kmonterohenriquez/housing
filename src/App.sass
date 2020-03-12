@@ -1,0 +1,7 @@
+@mixin container($width, $max-width)
+  width: $width
+  max-width: $max-width
+  margin: 0 auto
+
+.lg-container
+  @include container( 90%,1800px)
