@@ -1,0 +1,79 @@
+.Features 
+    position: relative
+    padding: 150px 0
+    overflow: hidden
+    &:before 
+        content: ""
+        top: 0
+        left: 0 
+        height: 100%
+        width: 100%
+        position: absolute 
+        z-index: -1
+        opacity: .9 
+        background: #F9F9F9
+
+    .title 
+        text-align: center
+        color: #212529
+        margin-bottom: 80px
+        font-size: 3rem
+    .bg-features
+        position: absolute
+        // height: 100%
+        width: 100%
+        background-repeat: repeat
+        top: 0 
+        left: 0 
+        // object-fit: cover
+        // object-position: center
+        z-index: -2
+
+    .box-container
+        
+        display: grid
+        justify-content: space-between
+        align-content: space-between
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))
+        grid-gap: 40px
+        
+        .box 
+            height: 500px
+            overflow: hidden
+            position: relative
+            border-radius: 5px
+            box-shadow: 2px 2px 6px #00000069
+            cursor: pointer
+            transition: box-shadow .5s
+            &:hover
+                box-shadow: 10px 10px 20px #0000008c
+
+            &:after 
+                    content: ""
+                    top: 0
+                    left: 0 
+                    height: 100%
+                    width: 100%
+                    position: absolute 
+                    z-index: 1
+                    opacity: .7
+                    background: linear-gradient(to bottom, transparent 45%, black )
+            
+            img 
+                position: relative
+                height: 500px 
+                width: 100% 
+                object-fit: cover 
+                object-position: center
+                
+            h1 
+                font-size: 2.6rem
+                line-height: 3rem
+                letter-spacing: .5px
+                padding-left: 20px
+                position: absolute
+                z-index: 2
+                bottom: 10px
+                color: white
+
+

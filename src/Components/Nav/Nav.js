@@ -4,7 +4,7 @@ import './Nav.sass';
 const Nav = () => {
 	return (
 		<header className='Nav'>
-			<div className='Nav-container lg-container'>
+			<div className='Nav-container space'>
 				<h1 className='logo'>Housing</h1>
 				<div className='left-side'>
 					<nav>
