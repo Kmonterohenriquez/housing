@@ -1,0 +1,46 @@
+.NewLiving 
+    padding: 100px 0
+    &-container 
+        display: grid 
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+        grid-gap: 40px
+        justify-content: center 
+        align-items: center 
+
+    .left-side 
+        text-align: end
+        .NewLiving-title 
+            font-size: 3.2rem
+        .NewLiving-text
+            color: #949698
+            line-height: 1.8rem
+            margin: 40px 0 30px
+        button 
+            background: transparent 
+            border-style: none 
+            border: 5px solid #A0CA3B
+            padding: 15px 20px
+            border-radius: 5px
+            cursor: pointer
+
+            &:hover
+                background: #A0CA3B
+            &:hover a 
+                color: white  
+            a 
+                
+                text-decoration: none 
+                color: #5A5A5A
+                font-weight: bolder
+                font-size: 1rem
+
+    .right-side
+        display: flex 
+        justify-content: center
+        align-items: center
+        img 
+            border-radius: 5px
+            box-shadow: 3px 3px 10px #00000069
+            max-width: 450px
+
+       

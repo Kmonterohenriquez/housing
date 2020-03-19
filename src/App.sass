@@ -1,7 +1,16 @@
+* 
+  outline: none
+  padding: 0
+  margin: 0
+  
 @mixin container($width, $max-width)
   width: $width
   max-width: $max-width
   margin: 0 auto
+  
 
 .container
   @include container( 85%,1100px)
+
+.sm-container
+  @include container( 85%,1000px)
