@@ -1,9 +1,12 @@
 import React from 'react';
 import './App.sass';
+
+// Components //
 import Nav from './Components/Nav/Nav';
 import Features from './Components/Features/Features';
 import NewLiving from './Components/NewLiving/NewLiving';
 import Quote from './Components/Quote/Quote';
+import Developing from './Components/Developing/Developing'
 
 function App() {
 	return (
@@ -13,6 +16,7 @@ function App() {
 				<Features />
 				<NewLiving />
 				<Quote />
+				<Developing />
 			</div>
 		</div>
 	);
