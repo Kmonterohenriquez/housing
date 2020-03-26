@@ -7,6 +7,7 @@ import Features from './Components/Features/Features';
 import NewLiving from './Components/NewLiving/NewLiving';
 import Quote from './Components/Quote/Quote';
 import Developing from './Components/Developing/Developing'
+import Pricing from './Components/Pricing/Pricing'
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 				<NewLiving />
 				<Quote />
 				<Developing />
+				<Pricing />
 			</div>
 		</div>
 	);
