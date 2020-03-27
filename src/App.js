@@ -8,6 +8,7 @@ import NewLiving from './Components/NewLiving/NewLiving';
 import Quote from './Components/Quote/Quote';
 import Developing from './Components/Developing/Developing'
 import Pricing from './Components/Pricing/Pricing'
+import Location from './Components/Location/Location'
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 				<Quote />
 				<Developing />
 				<Pricing />
+				<Location/>
 			</div>
 		</div>
 	);
