@@ -1,6 +1,10 @@
 import React from 'react'
 import './Pricing.sass'
 
+import apartment_a from '../../img/gallery-03.jpg'
+import apartment_b from '../../img/gallery-02.jpg'
+import apartment_c from '../../img/gallery-05.jpg'
+
 
 const Pricing = () => {
     return (
@@ -9,7 +13,7 @@ const Pricing = () => {
             <div className="Pricing-content">
 
                 <div className="Pricing-box white-box">
-                    <img src="" alt=""/>
+                    <img src={apartment_a} alt="apartment a"/>
                     <p className="Pricing-box-price white-price">Apartment A <span className='black'>$125,000</span></p>
                     <ul className="Pricing-info">
                         <li>245 m<sup>2</sup></li>
@@ -22,7 +26,7 @@ const Pricing = () => {
                 </div>
 
                 <div className="Pricing-box green-box">
-                    <img src="" alt=""/>
+                    <img src={apartment_b} alt="apartment b"/>
                     <p className='Pricing-box-price green-price'>Apartment B <span className='white'>$125,000</span></p>
                     <ul className="Pricing-info">
                         <li>340 m<sup>2</sup></li>
@@ -35,7 +39,7 @@ const Pricing = () => {
                 </div>
 
                 <div className="Pricing-box white-box">
-                    <img src="" alt=""/>
+                    <img src={apartment_c} alt="apartment c"/>
                     <p className='Pricing-box-price white-price'>Apartment C <span className='black'>$125,000</span></p>
                     <ul className="Pricing-info">
                         <li>480 m<sup>2</sup></li>
