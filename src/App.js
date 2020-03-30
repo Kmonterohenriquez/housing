@@ -6,9 +6,11 @@ import Nav from './Components/Nav/Nav';
 import Features from './Components/Features/Features';
 import NewLiving from './Components/NewLiving/NewLiving';
 import Quote from './Components/Quote/Quote';
-import Developing from './Components/Developing/Developing'
-import Pricing from './Components/Pricing/Pricing'
-import Location from './Components/Location/Location'
+import Developing from './Components/Developing/Developing';
+import Pricing from './Components/Pricing/Pricing';
+import Location from './Components/Location/Location';
+import Partners from './Components/Partners/Partners';
+import Contact from './Components/Contact/Contact';
 
 function App() {
 	return (
@@ -20,7 +22,9 @@ function App() {
 				<Quote />
 				<Developing />
 				<Pricing />
-				<Location/>
+				<Location />
+				<Partners />
+				<Contact />
 			</div>
 		</div>
 	);
