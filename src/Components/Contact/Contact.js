@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contact.sass'
+import agent_pic from '../../img/author-01.jpg'
 
 const Contact = () => {
     return (
@@ -8,12 +9,16 @@ const Contact = () => {
            <div className='Contact-content'>
                 <div className="Contact-left-side">
                     <h3 className="Contact-left-side-title">Our Agent</h3>
-                    <img src="" alt=""/>
-                    <p className="name">Glennys Collado</p>
-                    <h4>Our Agent</h4>
-                    <p className="phone"><strong>Phone: </strong> (123) 456 789 000</p>
-                    <p className="email"><strong>E-mail: </strong> Glennys.Collado@example.com</p>
-                    <p className="skype"><strong>Skype: </strong> Glennys Collado</p>
+                   <div className='separator'>
+                        <img src={agent_pic} alt="Agent"/>
+                        <div className='person-info'>
+                            <p className="name">Glennys Collado</p>
+                            <h4>Our Agent</h4>
+                            <p className="phone"><strong>Phone: </strong> (123) 456 789 000</p>
+                            <p className="email"><strong>E-mail: </strong> Glennys.Collado@example.com</p>
+                            <p className="skype"><strong>Skype: </strong> Glennys Collado</p>
+                        </div>
+                   </div>
                 </div>
                 <div className="Contact-right-side">
                     <h1 className="Contact-right-side-title">Contact Form</h1>
