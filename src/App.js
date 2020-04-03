@@ -11,13 +11,15 @@ import Pricing from './Components/Pricing/Pricing';
 import Location from './Components/Location/Location';
 import Partners from './Components/Partners/Partners';
 import Contact from './Components/Contact/Contact';
-import Footer from './Components/Footer/Footer'
+import Footer from './Components/Footer/Footer';
+import Showcase from './Components/Showcase/Showcase';
 
 function App() {
 	return (
 		<div className='App'>
 			<Nav />
 			<div className='App-container'>
+				<Showcase />
 				<Features />
 				<NewLiving />
 				<Quote />

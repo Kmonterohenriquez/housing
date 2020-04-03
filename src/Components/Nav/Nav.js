@@ -5,7 +5,7 @@ const Nav = () => {
 	return (
 		<header className='Nav'>
 			<div className='Nav-container space'>
-				<h1 className='logo'>Housing</h1>
+				<h1 className='logo'></h1>
 				<div className='left-side'>
 					<nav>
 						<ul>

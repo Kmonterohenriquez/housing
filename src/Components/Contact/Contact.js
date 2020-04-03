@@ -13,7 +13,6 @@ const Contact = () => {
                         <img src={agent_pic} alt="Agent"/>
                         <div className='person-info'>
                             <p className="name">Glennys Collado</p>
-                            <h4>Our Agent</h4>
                             <p className="phone"><strong>Phone: </strong> (123) 456 789 000</p>
                             <p className="email"><strong>E-mail: </strong> Glennys.Collado@example.com</p>
                             <p className="skype"><strong>Skype: </strong> Glennys Collado</p>
