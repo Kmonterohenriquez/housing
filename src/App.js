@@ -11,6 +11,7 @@ import Pricing from './Components/Pricing/Pricing';
 import Location from './Components/Location/Location';
 import Partners from './Components/Partners/Partners';
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer'
 
 function App() {
 	return (
@@ -25,6 +26,7 @@ function App() {
 				<Location />
 				<Partners />
 				<Contact />
+				<Footer />
 			</div>
 		</div>
 	);
