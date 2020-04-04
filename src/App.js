@@ -21,14 +21,14 @@ function App() {
 			<div className='App-container'>
 				<Showcase />
 				<Features />
-				<NewLiving />
-				<Quote />
+				 <NewLiving />
+				{/*<Quote />
 				<Developing />
 				<Pricing />
 				<Location />
 				<Partners />
 				<Contact />
-				<Footer />
+				<Footer /> */}
 			</div>
 		</div>
 	);
