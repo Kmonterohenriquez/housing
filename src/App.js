@@ -25,10 +25,10 @@ function App() {
 				<Quote />
 				<Developing />
 				<Pricing />
-				 <Location />
-				{/* <Partners />
+				<Location />
+				<Partners />
 				<Contact />
-				<Footer /> */}
+				{/* <Footer /> */}
 			</div>
 		</div>
 	);

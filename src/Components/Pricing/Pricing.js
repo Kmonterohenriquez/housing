@@ -27,7 +27,7 @@ const Pricing = () => {
 
                 <div className="Pricing-box green-box">
                     <img src={apartment_b} alt="apartment b"/>
-                    <p className='Pricing-box-price green-price'>Apartment B <span className='white'>$125,000</span></p>
+                    <p className='Pricing-box-price green-price'>Apartment B <span className='white'>$148,000</span></p>
                     <ul className="Pricing-info">
                         <li>340 m<sup>2</sup></li>
                         <li>2 Bathrooms</li>
@@ -40,7 +40,7 @@ const Pricing = () => {
 
                 <div className="Pricing-box white-box">
                     <img src={apartment_c} alt="apartment c"/>
-                    <p className='Pricing-box-price white-price'>Apartment C <span className='black'>$125,000</span></p>
+                    <p className='Pricing-box-price white-price'>Apartment C <span className='black'>$225,000</span></p>
                     <ul className="Pricing-info">
                         <li>480 m<sup>2</sup></li>
                         <li>2 Bathrooms</li>

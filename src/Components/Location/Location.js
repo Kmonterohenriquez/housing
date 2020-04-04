@@ -10,12 +10,12 @@ const Location = () => {
 				<div className='map-container'>
 					<div className='map-description'>
 						<div className='map-info'>
-							<h1 className='map-info-title'>Greenfield residence</h1>
+							<h1 className='map-info-title'>Jarabacoa residence</h1>
 							<p className='map-info-address'>
-								2519 Stanley Avenue Huntington, NY 11743
+								547 Los Corrales, Sto. Dgo. 11743
 							</p>
-							<p className='map-info-latitude'><strong>Latitude</strong> <div>51.5144281</div></p>
-							<p className='map-info-longitude'><strong>Longitude</strong> <div>-0.12815562</div></p>
+							<p className='map-info-latitude'><strong>Latitude</strong> <div>76.3219314</div></p>
+							<p className='map-info-longitude'><strong>Longitude</strong> <div>-0.5968345</div></p>
 						</div>
 						<img src={house} alt='luxury house' />
 					</div>
