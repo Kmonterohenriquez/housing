@@ -24,9 +24,9 @@ function App() {
 				<NewLiving />
 				<Quote />
 				<Developing />
-				{/* <Pricing />
-				<Location />
-				<Partners />
+				<Pricing />
+				 <Location />
+				{/* <Partners />
 				<Contact />
 				<Footer /> */}
 			</div>
