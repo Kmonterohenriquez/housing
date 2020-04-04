@@ -23,8 +23,8 @@ function App() {
 				<Features />
 				<NewLiving />
 				<Quote />
-				{/*<Developing />
-				<Pricing />
+				<Developing />
+				{/* <Pricing />
 				<Location />
 				<Partners />
 				<Contact />
