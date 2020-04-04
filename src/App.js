@@ -21,9 +21,9 @@ function App() {
 			<div className='App-container'>
 				<Showcase />
 				<Features />
-				 <NewLiving />
-				{/*<Quote />
-				<Developing />
+				<NewLiving />
+				<Quote />
+				{/*<Developing />
 				<Pricing />
 				<Location />
 				<Partners />

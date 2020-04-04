@@ -6,8 +6,8 @@ const Quote = () => {
         <div className='Quote'>
             <img src={background} alt="house background"/>
             <i className="fas fa-quote-left"></i>
-            <h1>Cras nisl lacus, tincidunt vitae neque vitae, interdum iaculis tortor. Orci varius natoque penatibus et magnis dis parturient montes</h1>
-            <p>John Doe</p>
+            <h1>You have no idea what's going to happen tomorrow. Why not live with extreme beauty today? </h1>
+            <p>Jill Sharp Weeks</p>
 
         </div>
     )
