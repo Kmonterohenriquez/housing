@@ -4,8 +4,16 @@
     width: 100%
     box-shadow: 2px 2px 6px #cecece
     display: flex
+
+    .menu-icon 
+        display: none
+        font-size: 1.7rem
+        color: #212529
+        cursor: pointer
+
     .space 
         margin: 0 40px
+
     &-container
         display: flex
         justify-content: space-between
@@ -14,8 +22,9 @@
         .logo 
             font-size: 1.6rem
             font-weight: 700
-        nav ul 
-            display: flex
+        nav 
+            ul 
+                display: flex
             li 
                 font-weight: 500
                 color: darken(#BDBDBD, 20% )
@@ -38,4 +47,21 @@
                     border: solid 1px #e2e2e2
                     border-radius: 20px
                     margin: 0 12px
+
+
+    @media screen and ( max-width: 950px )
+        .menu-icon 
+            display: block
+        .Nav 
+                
+            &-container
+                nav 
+                    display: none
+                .left-side 
+                        display: none
+            
+
+
+    
+        
 

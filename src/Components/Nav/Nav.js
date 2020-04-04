@@ -5,7 +5,7 @@ const Nav = () => {
 	return (
 		<header className='Nav'>
 			<div className='Nav-container space'>
-				<h1 className='logo'></h1>
+				<h1 className='logo'>My House</h1>
 				<div className='left-side'>
 					<nav>
 						<ul>
@@ -18,9 +18,9 @@ const Nav = () => {
 							<li>Contact</li>
 						</ul>
 					</nav>
-                    
 					<p className='tel'><span></span>+1 (407) 777-0000</p>
 				</div>
+				<i className="menu-icon fas fa-bars"></i>
 			</div>
 		</header>
 	);
