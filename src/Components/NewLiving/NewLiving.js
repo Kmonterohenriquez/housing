@@ -5,7 +5,7 @@ const NewLiving = () => {
     return (
         <div className='NewLiving'>
             <div className='NewLiving-container sm-container'>
-                {/* <img src="" alt=""/> */}
+                <div className="dotted-bg"></div>
                 <div className="left-side">
                     <h1 className='NewLiving-title'>New Living For Your Dreaming</h1>
                     <p className='NewLiving-text'>Where you and your family can live their dreaming house with the most luxury houses you've ever seen.</p>

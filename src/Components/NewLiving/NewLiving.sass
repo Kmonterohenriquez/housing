@@ -1,12 +1,20 @@
 .NewLiving 
     padding: 200px 0
+
     &-container 
+        position: relative
         display: grid 
         grid-template-columns: repeat(auto-fit, minmax(420px, 1fr))
         grid-gap: 40px
         justify-content: center 
         align-items: center 
-
+        .dotted-bg
+            position: absolute
+            height: 50%
+            width: 100%
+            top: 0
+            z-index: -1
+            background: url("http://themestarz.net/html/housing/assets/img/pattern-dot.png")
     .left-side 
         text-align: end
         .NewLiving-title 
