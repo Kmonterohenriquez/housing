@@ -4,7 +4,8 @@ import agent_pic from '../../img/author-01.jpg'
 
 const Contact = () => {
     return (
-        <div className='Contact container '>
+        <div className='Contact  '>
+            <div className='container'>
             <h1 className="Contact-title">Contact</h1>
            <div className='Contact-content'>
                 <div className="Contact-left-side">
@@ -39,6 +40,7 @@ const Contact = () => {
                     </form>
                     <button>Send a Message</button>
                 </div>
+           </div>
            </div>
         </div>
     )

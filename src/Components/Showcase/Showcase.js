@@ -13,7 +13,7 @@ const Showcase = () => {
                     <label htmlFor="">Subscribe for latest news!</label>
                     <div className='input-container'>
                         <input type="text" placeholder='Your Email'/>
-                        <i className='arrow angle-right'></i>
+                        <i className="fas fa-angle-right"></i>
                     </div>
                     
                 </form>
