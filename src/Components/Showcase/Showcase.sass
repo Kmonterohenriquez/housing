@@ -1,0 +1,67 @@
+.Showcase
+    position: relative
+    min-height: calc(100vh - 105px)  
+    .img-container
+        height: calc(70vh - 105px)  
+        overflow: hidden
+        // margin-bottom: 100px
+        img 
+            width: 100%
+            height: 600px 
+            object-fit: cover
+            object-position: center 
+            // transform: scale(-)
+
+    &-box 
+        border-radius: 3px
+        position: absolute
+        background: black
+        z-index: 100
+        width: 380px
+        bottom: 0px
+        left: 15%
+        padding: 30px
+        min-height: 450px
+        color: white
+
+        .title 
+            color: white
+            font-size: 4rem
+            line-height: 4.5rem
+            letter-spacing: .5px
+            margin-bottom: 45px
+        
+        form 
+            
+            .input-container 
+                input 
+                    padding: 15px
+                    width: 100%
+                    box-sizing: border-box 
+                    border-style: none
+                    margin-top: 10px 
+                i 
+                    color: white
+        
+        hr 
+            margin: 35px 0 
+            border:  .5px solid white
+        p 
+            margin-bottom: 35px
+            line-height: 1.5rem
+
+        button 
+            border: 5px solid  #95C425
+            background: transparent 
+            color: white
+            padding: 10px 20px
+            border-radius: 5px
+            font-size: .96rem
+            font-weight: 700
+            cursor: pointer
+            transition: background .5s
+
+            &:hover 
+                background: #95C425
+
+            
