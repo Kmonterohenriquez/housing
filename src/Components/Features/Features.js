@@ -1,6 +1,5 @@
 import React from 'react'
 import './Features.sass'
-import bg from '../../img/pattern-topo.png'
 import image_1 from '../../img/image-01.jpg'
 import image_2 from '../../img/image-02.jpg'
 import image_3 from '../../img/image-03.jpg'
@@ -8,7 +7,8 @@ import image_3 from '../../img/image-03.jpg'
 const Features = () => {
     return (
         <div className='Features'>
-            <img src={bg} alt="features-background" className='bg-features'/>
+            {/* <img src={bg} alt="features-background" className='bg-features'/> */}
+            <div className="bg-features"></div>
             <div className=" container">
                 <h1 className='title'> What You'll Get</h1>
                 <div className="box-container">
