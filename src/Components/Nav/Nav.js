@@ -1,11 +1,15 @@
 import React from 'react';
 import './Nav.sass';
+import logo from '../../img/logo.png'
 
 const Nav = () => {
 	return (
 		<header className='Nav'>
 			<div className='Nav-container space'>
-				<h1 className='logo'>Oberlo</h1>
+
+				<h1 className='logo'>
+					<img src={logo} alt="Oberlo logo"/>
+					Oberlo</h1>
 				<div className='left-side'>
 					<nav>
 						<ul>
