@@ -14,10 +14,10 @@ const Contact = () => {
                    <div className='separator'>
                         <img src={agent_pic} alt="Agent"/>
                         <div className='person-info'>
-                            <p className="name">Glennys Collado</p>
+                            <p className="name">Valery Duran</p>
                             <p className="phone"><strong>Phone: </strong> (123) 456 789 000</p>
-                            <p className="email"><strong>E-mail: </strong> Glennys.Collado@example.com</p>
-                            <p className="skype"><strong>Skype: </strong> Glennys Collado</p>
+                            <p className="email"><strong>E-mail: </strong> Valery.Duran@example.com</p>
+                            <p className="skype"><strong>Skype: </strong> Valery Duran</p>
                         </div>
                    </div>
                 </div>
