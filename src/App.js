@@ -24,11 +24,11 @@ function App() {
 				<NewLiving />
 				<Quote />
 				<Developing />
-				{/* <Pricing />
+				<Pricing />
 				<Location />
 				<Partners />
 				<Contact />
-				<Footer /> */}
+				<Footer />
 			</div>
 		</div>
 	);
