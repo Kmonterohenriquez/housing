@@ -5,7 +5,7 @@
   
   p, h1 
     cursor: default
-  
+
   
 @mixin container($width, $max-width)
   width: $width
@@ -19,3 +19,9 @@
 
 .sm-container
   @include container( 85%,1000px)
+
+@media screen and ( max-width: 700px )
+  .App-container 
+    padding: 0 20px 25px
+ 
+  

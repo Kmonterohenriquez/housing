@@ -7,7 +7,6 @@ import image_3 from '../../img/image-03.jpg'
 const Features = () => {
     return (
         <div className='Features'>
-            {/* <img src={bg} alt="features-background" className='bg-features'/> */}
             <div className="bg-features"></div>
             <div className=" container">
                 <h1 className='title'> What You'll Get</h1>
